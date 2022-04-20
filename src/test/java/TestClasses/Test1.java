@@ -66,7 +66,7 @@ public class Test1 {
 	public void afterClass()
 	{
 	
-		System.out.println();
+		System.out.println("new update");
 	}
 
 }
