@@ -28,12 +28,12 @@ public class LogInPage extends Utility1{
 	
 	public void enterEmail()
 	{
-		emailID.sendKeys(getConfigData("email"));
+		emailID.sendKeys("akshaynarhare1541@gmail.com");
 	}
 	
 	public void enterPassword()
 	{
-		password.sendKeys(getConfigData("password"));
+		password.sendKeys("Akshay123");
 	}
 	
 	public void clickSubmit() throws InterruptedException

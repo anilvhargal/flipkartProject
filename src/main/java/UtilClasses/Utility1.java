@@ -8,7 +8,6 @@ import java.time.Duration;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.EncryptedDocumentException;
@@ -86,14 +85,4 @@ public class Utility1 {
 		FileUtils.copyFile(scrFile, Dest);
 		return path;
 		}
-	public String getConfigData(String key) throws IOException
-	{
-		
-		FileInputStream flie=new FileInputStream("Configuration\config.properties");
-		Properties  pro=new Properties();
-		pro.load(flie);
-		
-		return prop.getProperty(key);
-		
-	}
 }

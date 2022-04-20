@@ -65,7 +65,8 @@ public class Test1 {
 	@AfterClass
 	public void afterClass()
 	{
-		
+	
+		System.out.println();
 	}
 
 }
